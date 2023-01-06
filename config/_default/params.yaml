@@ -1,33 +1,4 @@
-baseURL: # if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
-title: Javier's Portfolio
-paginate: 5
-theme: charlolamode
-
-
-
-menu:
-    main:
-        - name: Contact
-          url: contact/
-          weight: 30
-        - name: Articles
-          url: articles/
-          weight: 20
-        - name: Projects
-          url: projects/
-          weight: 15
-
-     # - name: Categories
-        #   url: categories/
-        #   weight: 10
-        # - name: new Tab
-        #   url: mewtab/
-        #   weight: defines order of tabs
-   
-
-
-params:
-    author: Javier Pascal
+author: Javier Pascal
 
 
     defaultTheme: auto
@@ -77,14 +48,3 @@ params:
           favicon32x32: "/images/favicon-32x32.png"
           apple_touch_icon: "/images/apple-touch-icon.png"
           safari_pinned_tab: "/images/apple-touch-icon.png"
-
-
-
-enableInlineShortcodes: true
-enableRobotsTXT: true
-enableEmoji: true
-pygmentsUseClasses: true
-
-minify:
-    disableXML: true
-
