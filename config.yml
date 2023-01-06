@@ -14,7 +14,7 @@ menu:
           url: articles/
           weight: 20
         - name: Projects
-          url: projects
+          url: projects/
           weight: 15
 
      # - name: Categories
@@ -58,22 +58,16 @@ params:
               url: https://www.youtube.com/watch?v=dQw4w9WgXcQ
     mainSections:
       - articles
+      - projects
+      - contact
 
     socialIcons:
-        - name: buymeacoffee
-          url: "https://ko-fi.com/heycharlola"
         - name: github
           url: "https://github.com/Pasdian"
         - name: linkedin
           url: "https://www.linkedin.com/in/javier-pascal-flores/"
-
-      # add more social icons. find more in svg.html file
-      # - name: youtube
-      #   url: yoururl
-      # - name: twitter
-      #   url: yoururl
-      # - name: facebook
-      #   url: yoururl
+        - name: twitter
+          url: "https://twitter.com/JPascal__"
 
 
     # change favicon in images folder (icon for web tab)
