@@ -1,50 +1,48 @@
 author: Javier Pascal
+defaultTheme: auto
+# disableThemeToggle: true
+ShowShareButtons: true
+ShowReadingTime: true
+displayFullLangName: true
+ShowBreadCrumbs: true
+ShowCodeCopyButtons: true
+ShowToc: true
+
+profileMode:
+    enabled: true
+    title: Javier Pascal
+    description: |
+
+      Hello, I am Javier.
+        I am a software developer. 
+    
+
+      This is my portfolio where I have all sorts of things.
+    imageUrl: "/images/profile.png"
+    imageTitle: my image
+    # imageWidth: 120
+    # imageHeight: 120
+    buttons:
+        - name: Don't click me
+          url: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+mainSections:
+  - articles
+  - projects
+  - contact
+
+socialIcons:
+    - name: github
+      url: "https://github.com/Pasdian"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/javier-pascal-flores/"
+    - name: twitter
+      url: "https://twitter.com/JPascal__"
 
 
-    defaultTheme: auto
-    # disableThemeToggle: true
-    ShowShareButtons: true
-    ShowReadingTime: true
-    displayFullLangName: true
-    ShowBreadCrumbs: true
-    ShowCodeCopyButtons: true
-    ShowToc: true
-
-    profileMode:
-        enabled: true
-        title: Javier Pascal
-        description: |
-
-          Hello, I am Javier.
-           I am a software developer. 
-        
-
-          This is my portfolio where I have all sorts of things.
-        imageUrl: "/images/profile.png"
-        imageTitle: my image
-        # imageWidth: 120
-        # imageHeight: 120
-        buttons:
-            - name: Don't click me
-              url: https://www.youtube.com/watch?v=dQw4w9WgXcQ
-    mainSections:
-      - articles
-      - projects
-      - contact
-
-    socialIcons:
-        - name: github
-          url: "https://github.com/Pasdian"
-        - name: linkedin
-          url: "https://www.linkedin.com/in/javier-pascal-flores/"
-        - name: twitter
-          url: "https://twitter.com/JPascal__"
-
-
-    # change favicon in images folder (icon for web tab)
-    assets:
-          favicon: "/images/favicon.ico"
-          favicon16x16: "/images/favicon-16x16.png"
-          favicon32x32: "/images/favicon-32x32.png"
-          apple_touch_icon: "/images/apple-touch-icon.png"
-          safari_pinned_tab: "/images/apple-touch-icon.png"
+# change favicon in images folder (icon for web tab)
+assets:
+      favicon: "/images/favicon.ico"
+      favicon16x16: "/images/favicon-16x16.png"
+      favicon32x32: "/images/favicon-32x32.png"
+      apple_touch_icon: "/images/apple-touch-icon.png"
+      safari_pinned_tab: "/images/apple-touch-icon.png"
