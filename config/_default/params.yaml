@@ -24,7 +24,7 @@ profileMode:
     # imageHeight: 120
     buttons:
         - name: Don't click me
-          url: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+          url: https://www.youtube.com/watch?v=mDW8RONmlEg
 mainSections:
   - articles
   - projects
